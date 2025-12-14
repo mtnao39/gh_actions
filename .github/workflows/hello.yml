@@ -1,0 +1,8 @@
+name: Hello
+on: push
+jobs:
+ hello:
+  runs-on: ubuntu-latest
+  steups:
+   - run: echo "Hello, world"
+   - uses: actions/chekcout@v4
